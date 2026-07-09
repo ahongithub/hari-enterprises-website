@@ -27,7 +27,7 @@ function row(label: string, value?: string): string {
 }
 
 export function buildInternalEmail(d: EnquiryInput): { subject: string; html: string; text: string } {
-  const subject = `New enquiry — ${d.productCategory} — ${d.companyName}`;
+  const subject = `New enquiry, ${d.productCategory}, ${d.companyName}`;
   const html = `
   <div style="font-family:Arial,Helvetica,sans-serif;max-width:640px;margin:auto">
     <h2 style="color:#12233d;border-bottom:3px solid #c8322b;padding-bottom:8px">New website enquiry</h2>
@@ -72,7 +72,7 @@ ${d.requirement}`;
 }
 
 export function buildAcknowledgementEmail(d: EnquiryInput): { subject: string; html: string } {
-  const subject = `We've received your enquiry — ${company.name}`;
+  const subject = `We've received your enquiry, ${company.name}`;
   const html = `
   <div style="font-family:Arial,Helvetica,sans-serif;max-width:600px;margin:auto;color:#252c39">
     <h2 style="color:#12233d">Thank you, ${esc(d.name.split(' ')[0] ?? d.name)}</h2>

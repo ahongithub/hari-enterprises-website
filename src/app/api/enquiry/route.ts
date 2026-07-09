@@ -24,7 +24,7 @@ function clientIp(req: Request): string {
 }
 
 export async function POST(req: Request) {
-  // 1. Rate limit per IP (in-memory; swap for Redis/KV at scale — see rate-limit.ts)
+  // 1. Rate limit per IP (in-memory; swap for Redis/KV at scale, see rate-limit.ts)
   const ip = clientIp(req);
   const rl = rateLimit(`enquiry:${ip}`, 5, 60_000);
   if (!rl.ok) {
@@ -64,7 +64,7 @@ export async function POST(req: Request) {
     website: form.get('website') ?? '', // honeypot
   };
 
-  // 3. Honeypot — silently accept but do nothing, so bots don't learn.
+  // 3. Honeypot, silently accept but do nothing, so bots don't learn.
   if (typeof raw.website === 'string' && raw.website.length > 0) {
     return NextResponse.json({ ok: true, delivered: true });
   }

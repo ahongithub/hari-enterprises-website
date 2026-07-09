@@ -9,9 +9,9 @@ export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://www.harient
 export const seoDefaults = {
   siteName: company.name,
   titleTemplate: `%s | ${company.name}`,
-  defaultTitle: `${company.name} — Refractory Material Supplier in Ahmedabad, Gujarat`,
+  defaultTitle: `${company.name}, Refractory Material Supplier in Ahmedabad, Gujarat`,
   defaultDescription:
-    'Hari Enterprises is an Ahmedabad-based B2B supplier of refractory materials — castables, fire bricks, ceramic fibre, insulation and refractory anchors — serving industrial buyers across Gujarat and India since 2005.',
+    'Hari Enterprises is an Ahmedabad-based B2B supplier of refractory materials, castables, fire bricks, ceramic fibre, insulation and refractory anchors, serving industrial buyers across Gujarat and India since 2005.',
   defaultOgImage: '/images/og/og-default.svg',
   locale: 'en_IN',
   twitterCard: 'summary_large_image' as const,

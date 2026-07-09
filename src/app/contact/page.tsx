@@ -9,7 +9,7 @@ import { company, telHref, mailHref, whatsappHref } from '@/data/company';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Contact Hari Enterprises — Ahmedabad, Gujarat',
+  title: 'Contact Hari Enterprises, Ahmedabad, Gujarat',
   description:
     'Contact Hari Enterprises for refractory materials. Call +91 95588 19332, WhatsApp, email jharidwari@gmail.com, or visit us in Sabarmati, Ahmedabad. Godown in Vatva.',
   path: '/contact',

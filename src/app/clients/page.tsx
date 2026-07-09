@@ -22,13 +22,13 @@ export default function ClientsPage() {
       <JsonLd data={breadcrumbSchema([{ name: 'Home', path: '/' }, { name: 'Clients', path: '/clients' }])} />
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Clients' }]} />
       <PageHeader
-        eyebrow="Clients & Market Presence"
-        title="Experience supporting industrial requirements across diverse businesses"
-        intro="Over the years, we have supplied and coordinated refractory material requirements for a range of organisations — from heavy engineering to food and energy equipment."
+        eyebrow="Clients"
+        title="Relationships built through reliable execution"
+        intro="Over the years we have supplied and coordinated refractory material requirements for a range of industrial organisations, from heavy engineering to food and energy equipment."
       />
       <Section>
         <Eyebrow>Selected organisations served</Eyebrow>
-        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid grid-cols-2 gap-5 sm:grid-cols-3">
           {clients.map((c) => (
             <ClientCard key={c.name} client={c} />
           ))}

@@ -3,7 +3,7 @@
 import Script from 'next/script';
 
 /**
- * Analytics loaders — GA4, GTM and Microsoft Clarity.
+ * Analytics loaders, GA4, GTM and Microsoft Clarity.
  * IDs are read from public env vars; nothing loads unless configured.
  * Conversion events fire from clicks on elements with a [data-analytics] attribute.
  */

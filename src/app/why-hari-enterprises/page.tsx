@@ -12,7 +12,7 @@ import { formatYearsSinceLabel } from '@/data/company-helpers';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Why Hari Enterprises — Our Capabilities | Refractory Supply Partner',
+  title: 'Why Hari Enterprises, Our Capabilities | Refractory Supply Partner',
   description:
     'Why industrial buyers choose Hari Enterprises for refractory materials: requirement understanding, reliable sourcing, responsive coordination and dependable fulfilment.',
   path: '/why-hari-enterprises',
@@ -21,14 +21,14 @@ export const metadata = buildMetadata({
 const capabilities = [
   { icon: Search, title: 'Requirement Understanding', body: 'We take time to understand your application, specification and operating conditions before recommending anything.' },
   { icon: PackageSearch, title: 'Reliable Sourcing', body: 'An established supplier network lets us source the right material and grade, across a broad portfolio.' },
-  { icon: MessageSquareReply, title: 'Commercial Responsiveness', body: 'Timely, clear responses on availability, pricing and terms — so procurement decisions do not stall.' },
+  { icon: MessageSquareReply, title: 'Commercial Responsiveness', body: 'Timely, clear responses on availability, pricing and terms, so procurement decisions do not stall.' },
   { icon: Truck, title: 'Coordinated Fulfilment', body: 'We coordinate supply and delivery through our supplier and logistics network to your location.' },
   { icon: Handshake, title: 'Relationship-Led Service', body: 'We aim to be a dependable long-term partner for repeat and future requirements.' },
-  { icon: ShieldCheck, title: 'Accurate Information', body: 'Straightforward, honest information about what we can supply and how — no over-promising.' },
+  { icon: ShieldCheck, title: 'Accurate Information', body: 'Straightforward, honest information about what we can supply and how, no over-promising.' },
 ];
 
 const reasons = [
-  `Active in the refractory-material business since ${company.establishedYear} — ${formatYearsSinceLabel(company.establishedYear)} years of relationships and know-how.`,
+  `Active in the refractory-material business since ${company.establishedYear}, ${formatYearsSinceLabel(company.establishedYear)} years of relationships and know-how.`,
   'Broad portfolio spanning castables, bricks, ceramic fibre, insulation and anchors.',
   'Based in Ahmedabad with a Gujarat focus and Pan-India supply capability where feasible.',
   'Requirement-based, application-led approach rather than a fixed catalogue.',
@@ -57,7 +57,7 @@ export default function WhyPage() {
       <PageHeader
         eyebrow="Why Hari Enterprises / Our Capabilities"
         title="Dependable sourcing, responsive coordination"
-        intro="The real difference in refractory buying is not just the product — it is how reliably it is sourced, coordinated and delivered. That is where we focus."
+        intro="The real difference in refractory buying is not just the product, it is how reliably it is sourced, coordinated and delivered. That is where we focus."
       />
 
       <Section>

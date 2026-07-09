@@ -21,8 +21,9 @@ export const primaryNav: NavItem[] = [
     ],
   },
   { label: 'Industries', href: '/industries' },
-  { label: 'Why Hari Enterprises', href: '/why-hari-enterprises' },
+  { label: 'Why Us', href: '/why-hari-enterprises' },
   { label: 'About', href: '/about' },
+  { label: 'Clients', href: '/clients' },
   { label: 'Resources', href: '/resources' },
   { label: 'Contact', href: '/contact' },
 ];

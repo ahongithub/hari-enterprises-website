@@ -106,7 +106,7 @@ export function EnquiryForm() {
     return (
       <div className="rounded-lg border border-steel-200 bg-white p-8 text-center shadow-card">
         <CheckCircle2 className="mx-auto h-12 w-12 text-green-600" aria-hidden />
-        <h2 className="mt-4 text-xl font-semibold text-ink">Thank you — your requirement has been received</h2>
+        <h2 className="mt-4 text-xl font-semibold text-ink">Thank you, your requirement has been received</h2>
         <p className="prose-hari mx-auto mt-2 max-w-md">
           Our team will review your enquiry and get back to you. For anything urgent, call or WhatsApp{' '}
           <a href={`tel:+${company.phone.tel}`} className="font-medium text-ember">
@@ -143,7 +143,7 @@ export function EnquiryForm() {
         </div>
       )}
 
-      {/* Honeypot — hidden from users, visible to bots */}
+      {/* Honeypot, hidden from users, visible to bots */}
       <div aria-hidden className="absolute left-[-9999px]" style={{ opacity: 0, height: 0, overflow: 'hidden' }}>
         <label htmlFor="website">Leave this field empty</label>
         <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
@@ -228,7 +228,7 @@ export function EnquiryForm() {
             <Paperclip className="h-4 w-4" aria-hidden />
             Choose a file (PDF, image, Word or Excel · max {MAX_FILE_MB} MB)
             <input ref={fileRef} id="file" name="file" type="file" className="sr-only"
-              accept=".pdf,.png,.jpg,.jpeg,.webp,.xlsx,.xls,.doc,.docx" onChange={onFileChange} />
+              accept=".pdf.png.jpg.jpeg.webp.xlsx.xls.doc.docx" onChange={onFileChange} />
           </label>
         ) : (
           <div className="flex items-center justify-between gap-3 rounded border border-steel-300 bg-white px-4 py-3 text-sm">

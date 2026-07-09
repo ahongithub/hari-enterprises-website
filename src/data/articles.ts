@@ -26,7 +26,7 @@ export const articles: Article[] = [
     slug: 'types-of-refractory-materials',
     title: 'Types of Refractory Materials and Their Applications',
     excerpt:
-      'A practical overview of the main families of refractory materials — bricks, castables, ceramic fibre and insulation — and where each is used.',
+      'A practical overview of the main families of refractory materials, bricks, castables, ceramic fibre and insulation, and where each is used.',
     readMinutes: 6,
     updated: '2026-01-15',
     category: 'Guides',
@@ -38,7 +38,7 @@ export const articles: Article[] = [
       { type: 'h2', text: 'Monolithic castables and cements' },
       { type: 'p', text: 'Castables are dry refractory mixes that are combined with water and cast, poured or gunned into place, curing into a seamless (monolithic) lining. Dense castables provide strong, abrasion-resistant hot faces; insulating castables reduce heat loss. Refractory cements are used for jointing, bedding and repair.' },
       { type: 'h2', text: 'Ceramic fibre products' },
-      { type: 'p', text: 'Ceramic fibre — supplied as blanket, board and paper — is lightweight, flexible and stores very little heat. That makes it ideal for lining, back-up insulation, expansion joints and equipment that cycles frequently.' },
+      { type: 'p', text: 'Ceramic fibre, supplied as blanket, board and paper, is lightweight, flexible and stores very little heat. That makes it ideal for lining, back-up insulation, expansion joints and equipment that cycles frequently.' },
       { type: 'h2', text: 'Insulation materials' },
       { type: 'p', text: 'Rockwool (LRB) mattresses, glass wool and mineral wool insulate equipment, ducts and piping. They control surface temperatures and reduce heat loss on the cooler side of the process.' },
       { type: 'h2', text: 'Choosing between them' },
@@ -54,7 +54,7 @@ export const articles: Article[] = [
     slug: 'castable-vs-fire-bricks',
     title: 'Castable Refractory vs Fire Bricks: How to Choose',
     excerpt:
-      'When a monolithic castable lining makes more sense than brickwork — and when it does not.',
+      'When a monolithic castable lining makes more sense than brickwork, and when it does not.',
     readMinutes: 5,
     updated: '2026-01-15',
     category: 'Material Selection',
@@ -82,14 +82,14 @@ export const articles: Article[] = [
     seo: {
       title: 'Castable Refractory vs Fire Bricks: How to Choose',
       description:
-        'A practical comparison of monolithic castables and fire bricks — installation, geometry, repair and service conditions. From Hari Enterprises, Ahmedabad.',
+        'A practical comparison of monolithic castables and fire bricks, installation, geometry, repair and service conditions. From Hari Enterprises, Ahmedabad.',
     },
   },
   {
     slug: 'selecting-refractory-high-temperature',
     title: 'How to Select Refractory Materials for High-Temperature Applications',
     excerpt:
-      'The key factors — temperature, atmosphere, wear and chemistry — that drive refractory selection.',
+      'The key factors, temperature, atmosphere, wear and chemistry, that drive refractory selection.',
     readMinutes: 6,
     updated: '2026-01-15',
     category: 'Material Selection',
@@ -97,7 +97,7 @@ export const articles: Article[] = [
     body: [
       { type: 'p', text: 'Selecting refractory materials is about matching the material to the real conditions inside your equipment. Getting the specification right the first time avoids premature failure and unplanned downtime.' },
       { type: 'h2', text: '1. Operating temperature' },
-      { type: 'p', text: 'Start with the maximum continuous temperature and any peaks. This narrows the material class and grade quickly — but temperature is only the beginning.' },
+      { type: 'p', text: 'Start with the maximum continuous temperature and any peaks. This narrows the material class and grade quickly, but temperature is only the beginning.' },
       { type: 'h2', text: '2. Atmosphere and chemistry' },
       { type: 'p', text: 'Reducing or oxidising atmospheres, slag, molten metal, alkalis and process gases all attack refractories differently. The right choice resists the specific chemistry your process presents.' },
       { type: 'h2', text: '3. Mechanical and thermal stress' },
@@ -105,14 +105,14 @@ export const articles: Article[] = [
       { type: 'h2', text: '4. Insulation and heat loss' },
       { type: 'p', text: 'Behind the hot face, insulating layers control heat loss and shell temperature. A well-designed lining balances hot-face durability with back-up insulation.' },
       { type: 'h2', text: '5. Installation and anchoring' },
-      { type: 'p', text: 'How the lining will be installed — and how it is anchored — matters as much as the material itself. Monolithic linings need correctly specified anchors and dry-out.' },
+      { type: 'p', text: 'How the lining will be installed, and how it is anchored, matters as much as the material itself. Monolithic linings need correctly specified anchors and dry-out.' },
       { type: 'h2', text: 'Getting help with selection' },
       { type: 'p', text: 'If you can share operating temperature, atmosphere, wear conditions and equipment type, our team can help you identify suitable material options and source them for your requirement.' },
     ],
     seo: {
       title: 'How to Select Refractory Materials for High-Temperature Applications',
       description:
-        'The key factors in refractory selection — temperature, atmosphere, wear, insulation and anchoring. A buyer guide from Hari Enterprises, Ahmedabad.',
+        'The key factors in refractory selection, temperature, atmosphere, wear, insulation and anchoring. A buyer guide from Hari Enterprises, Ahmedabad.',
     },
   },
   {
@@ -128,8 +128,8 @@ export const articles: Article[] = [
       { type: 'p', text: 'Ceramic fibre blanket has become a default choice for high-temperature insulation because it combines low weight, low heat storage and easy installation. Here is what makes it useful and where it fits.' },
       { type: 'h2', text: 'Key properties' },
       { type: 'ul', items: [
-        'Very low heat storage — heats and cools quickly, saving energy on cyclic equipment',
-        'Lightweight and flexible — wraps around complex shapes',
+        'Very low heat storage, heats and cools quickly, saving energy on cyclic equipment',
+        'Lightweight and flexible, wraps around complex shapes',
         'Good thermal-shock resistance',
         'Available in a range of densities and thicknesses',
       ] },
@@ -177,7 +177,7 @@ export const articles: Article[] = [
     slug: 'common-causes-refractory-failure',
     title: 'Common Causes of Refractory Failure',
     excerpt:
-      'The recurring reasons refractory linings fail early — and how better specification and installation help.',
+      'The recurring reasons refractory linings fail early, and how better specification and installation help.',
     readMinutes: 5,
     updated: '2026-01-15',
     category: 'Guides',
@@ -187,7 +187,7 @@ export const articles: Article[] = [
       { type: 'h2', text: 'Wrong material for the conditions' },
       { type: 'p', text: 'A material chosen for temperature alone may fail when abrasion, chemistry or thermal shock are the real driver. Selection should reflect all the service conditions.' },
       { type: 'h2', text: 'Poor installation and dry-out' },
-      { type: 'p', text: 'Incorrect mixing, placement or dry-out of castables — and rushed schedules — are frequent causes of early failure. Proper procedures matter as much as the material.' },
+      { type: 'p', text: 'Incorrect mixing, placement or dry-out of castables, and rushed schedules, are frequent causes of early failure. Proper procedures matter as much as the material.' },
       { type: 'h2', text: 'Inadequate anchoring' },
       { type: 'p', text: 'Under-specified or poorly placed anchors let linings detach, particularly on vertical and curved surfaces.' },
       { type: 'h2', text: 'Thermal cycling and shock' },
@@ -199,7 +199,7 @@ export const articles: Article[] = [
     seo: {
       title: 'Common Causes of Refractory Failure',
       description:
-        'The recurring reasons refractory linings fail early — material choice, installation, anchoring, thermal shock and mechanical damage. From Hari Enterprises.',
+        'The recurring reasons refractory linings fail early, material choice, installation, anchoring, thermal shock and mechanical damage. From Hari Enterprises.',
     },
   },
   {

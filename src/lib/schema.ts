@@ -83,7 +83,7 @@ export function productSchema(p: { name: string; description: string; image: str
       availability: 'https://schema.org/InStock',
       priceCurrency: 'INR',
       seller: { '@type': 'Organization', name: company.name },
-      // Price on enquiry — no fabricated figure.
+      // Price on enquiry, no fabricated figure.
       url: `${siteUrl}/products/${p.slug}`,
     },
   };

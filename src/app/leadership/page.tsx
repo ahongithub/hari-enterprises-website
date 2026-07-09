@@ -10,7 +10,7 @@ import { company } from '@/data/company';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: `${company.founder.name} — ${company.founder.title} | Hari Enterprises`,
+  title: `${company.founder.name}, ${company.founder.title} | Hari Enterprises`,
   description: `${company.founder.name}, ${company.founder.title} of Hari Enterprises. ${company.founder.qualification}, with over ${company.founder.experienceYears} years of marketing and business experience in the refractory-material domain since ${company.founder.inDomainSince}.`,
   path: '/leadership',
 });
@@ -75,7 +75,7 @@ export default function LeadershipPage() {
               </p>
               <p>
                 That combination of commercial understanding and customer orientation continues to shape
-                how the company works today — responsive, dependable and relationship-led.
+                how the company works today, responsive, dependable and relationship-led.
               </p>
             </div>
           </div>

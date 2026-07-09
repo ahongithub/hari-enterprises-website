@@ -12,7 +12,7 @@ export const company = {
   positioning:
     'Refractory material sourcing & supply partner for industrial buyers across Gujarat and India.',
   descriptionShort:
-    'Ahmedabad-based B2B supplier of refractory materials — castables, fire bricks, ceramic fibre, insulation and refractory anchors — backed by an established supplier network and responsive commercial coordination.',
+    'Ahmedabad-based B2B supplier of refractory materials, castables, fire bricks, ceramic fibre, insulation and refractory anchors, backed by an established supplier network and responsive commercial coordination.',
   establishedYear: 2005,
 
   phone: {
@@ -43,7 +43,7 @@ export const company = {
       state: 'Gujarat',
       postalCode: '380019',
       country: 'India',
-      // Approx. Sabarmati, Ahmedabad — update with the exact pin when a GMB
+      // Approx. Sabarmati, Ahmedabad, update with the exact pin when a GMB
       // listing is created (see LOCAL_SEO_PLAN.md).
       geo: { lat: 23.0834, lng: 72.5806 },
     },
@@ -60,10 +60,10 @@ export const company = {
   // Primary and broader markets
   markets: {
     primary: 'Gujarat',
-    broader: 'Pan-India where commercially and operationally feasible',
+    broader: 'Serving industrial buyers across India',
   },
 
-  // Social profiles — leave empty strings if not available; footer hides empties.
+  // Social profiles, leave empty strings if not available; footer hides empties.
   social: {
     linkedin: '',
     facebook: '',
@@ -78,7 +78,7 @@ export const company = {
     qualification: 'MBA in Marketing',
     experienceYears: 26,
     inDomainSince: 2005,
-    portrait: '/images/founder-jitendra-haridwari.jpg',
+    portrait: '/images/leadership/jitendra-haridwari-founder-director.webp',
     portraitAlt: 'Portrait of Mr. Jitendra Haridwari, Founder & Director of Hari Enterprises',
   },
 } as const;

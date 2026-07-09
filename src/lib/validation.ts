@@ -3,7 +3,7 @@ import { categories } from '@/data/products';
 
 const categoryNames = categories.map((c) => c.name) as [string, ...string[]];
 
-/** Shared enquiry schema — used on the client (React Hook-free) and the server. */
+/** Shared enquiry schema, used on the client (React Hook-free) and the server. */
 export const enquirySchema = z.object({
   name: z.string().trim().min(2, 'Please enter your name.').max(120),
   companyName: z.string().trim().min(2, 'Please enter your company name.').max(160),
@@ -36,7 +36,7 @@ export const enquirySchema = z.object({
   consent: z.literal(true, {
     errorMap: () => ({ message: 'Please accept the privacy terms to continue.' }),
   }),
-  // Honeypot — must remain empty. Bots tend to fill every field.
+  // Honeypot, must remain empty. Bots tend to fill every field.
   website: z.string().max(0).optional().or(z.literal('')),
 });
 

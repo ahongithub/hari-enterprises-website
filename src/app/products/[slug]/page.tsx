@@ -69,14 +69,14 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
       {/* Hero */}
       <Section className="!pb-10">
         <div className="grid gap-10 lg:grid-cols-2">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-steel-200 bg-steel-100 shadow-card">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-steel-200 bg-white shadow-card">
             <Image
               src={product.image}
               alt={product.imageAlt}
               fill
               sizes="(max-width:1024px) 100vw, 50vw"
               priority
-              className="object-cover"
+              className="object-contain p-4"
             />
           </div>
           <div>
@@ -169,12 +169,10 @@ export default function ProductDetailPage({ params }: { params: { slug: string }
                   <Button href={`/request-a-quote?product=${product.slug}`} className="w-full" data-analytics="product-enquiry">
                     <FileText className="h-4 w-4" aria-hidden /> Request a Quote
                   </Button>
-                  <Button href={telHref} variant="outline" data-analytics="phone-click"
-                    className="w-full border-white/25 bg-transparent text-white hover:bg-white/10">
+                  <Button href={telHref} variant="outline-light" data-analytics="phone-click" className="w-full">
                     <Phone className="h-4 w-4" aria-hidden /> {company.phone.display}
                   </Button>
-                  <Button href={mailHref} variant="ghost" data-analytics="email-click"
-                    className="w-full text-white hover:bg-white/10">
+                  <Button href={mailHref} variant="outline-light" data-analytics="email-click" className="w-full">
                     <Mail className="h-4 w-4" aria-hidden /> Email us
                   </Button>
                 </div>

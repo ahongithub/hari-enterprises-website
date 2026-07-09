@@ -1,7 +1,7 @@
 /**
  * Minimal in-memory rate limiter (per instance). Good enough for a single-region
  * deployment. For multi-instance/serverless scale, swap for Upstash Redis or
- * Vercel KV — see comments in src/app/api/enquiry/route.ts.
+ * Vercel KV, see comments in src/app/api/enquiry/route.ts.
  */
 type Entry = { count: number; resetAt: number };
 const store = new Map<string, Entry>();

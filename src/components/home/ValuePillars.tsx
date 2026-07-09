@@ -1,7 +1,7 @@
 import { Search, PackageSearch, MessageSquareReply, Truck, Handshake } from 'lucide-react';
 
 const pillars = [
-  { icon: Search, title: 'Requirement Understanding', body: 'We start by understanding your specification, application and operating conditions — not just the product name.' },
+  { icon: Search, title: 'Requirement Understanding', body: 'We start by understanding your specification, application and operating conditions, not just the product name.' },
   { icon: PackageSearch, title: 'Reliable Sourcing', body: 'An established supplier network lets us source the right material and grade for your requirement.' },
   { icon: MessageSquareReply, title: 'Commercial Responsiveness', body: 'Clear, timely responses on availability, pricing and terms so your procurement keeps moving.' },
   { icon: Truck, title: 'Coordinated Fulfilment', body: 'We coordinate supply and delivery through our supplier and logistics network to your location.' },

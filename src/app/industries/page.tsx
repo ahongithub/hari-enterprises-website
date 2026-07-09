@@ -12,7 +12,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata = buildMetadata({
   title: 'Industries & Applications for Refractory Materials | Hari Enterprises',
   description:
-    'Find refractory materials by industry and application — foundries, kilns, boilers, cement, chemical, power and heat-treatment. Guidance from Hari Enterprises, Ahmedabad.',
+    'Find refractory materials by industry and application, foundries, kilns, boilers, cement, chemical, power and heat-treatment. Guidance from Hari Enterprises, Ahmedabad.',
   path: '/industries',
 });
 
@@ -23,7 +23,7 @@ export default function IndustriesPage() {
       <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Industries' }]} />
       <PageHeader
         eyebrow="Industries & Applications"
-        title="Start from your application, not a part number"
+        title="Applications supported by our product portfolio"
         intro="If you know the equipment or the problem but not the exact product, these pages help you connect your application to suitable refractory material categories."
       />
       <Section>

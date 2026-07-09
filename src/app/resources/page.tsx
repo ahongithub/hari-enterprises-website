@@ -10,9 +10,9 @@ import { articles } from '@/data/articles';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Refractory Knowledge Centre — Guides & Buyer Resources | Hari Enterprises',
+  title: 'Refractory Knowledge Centre, Guides & Buyer Resources | Hari Enterprises',
   description:
-    'Practical, vendor-neutral guides on refractory materials — selection, castables vs bricks, ceramic fibre, anchors, failure causes and how to request a quote.',
+    'Practical, vendor-neutral guides on refractory materials, selection, castables vs bricks, ceramic fibre, anchors, failure causes and how to request a quote.',
   path: '/resources',
 });
 

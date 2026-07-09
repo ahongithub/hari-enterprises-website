@@ -4,7 +4,7 @@ import { Eyebrow } from '@/components/ui/Eyebrow';
 import { company, telHref, whatsappHref } from '@/data/company';
 
 export function CtaBand({
-  title = 'Tell us what you need — we\u2019ll help you source it reliably.',
+  title = 'Tell us what you need, we\u2019ll help you source it reliably.',
   intro = 'Share your requirement with specifications, quantities and delivery location. Our team reviews every enquiry and responds with availability and commercial details.',
 }: {
   title?: string;
@@ -22,12 +22,10 @@ export function CtaBand({
             <Button href="/request-a-quote" size="lg">
               Request a Quote
             </Button>
-            <Button href={telHref} variant="outline" size="lg" data-analytics="phone-click"
-              className="border-white/25 bg-transparent text-white hover:border-white hover:bg-white/10">
+            <Button href={telHref} variant="outline-light" size="lg" data-analytics="phone-click">
               Call {company.phone.display}
             </Button>
-            <Button href={whatsappHref} variant="ghost" size="lg" data-analytics="whatsapp-click"
-              className="text-white hover:bg-white/10">
+            <Button href={whatsappHref} variant="outline-light" size="lg" data-analytics="whatsapp-click">
               WhatsApp
             </Button>
           </div>

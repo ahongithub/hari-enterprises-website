@@ -11,14 +11,14 @@ import { formatYearsSinceLabel } from '@/data/company-helpers';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'About Hari Enterprises — Refractory Sourcing & Supply, Ahmedabad',
+  title: 'About Hari Enterprises, Refractory Sourcing & Supply, Ahmedabad',
   description:
     'Hari Enterprises is an Ahmedabad-based B2B refractory material sourcing and supply business, active since 2005, serving industrial buyers across Gujarat and India.',
   path: '/about',
 });
 
 const values = [
-  { title: 'Reliability', body: 'We do what we say — on availability, timelines and follow-through.' },
+  { title: 'Reliability', body: 'We do what we say, on availability, timelines and follow-through.' },
   { title: 'Responsiveness', body: 'Clear, timely communication keeps your procurement moving.' },
   { title: 'Integrity', body: 'Straightforward dealing and accurate information, every time.' },
   { title: 'Relationships', body: 'We invest in long-term partnerships, not one-off transactions.' },
@@ -46,7 +46,7 @@ export default function AboutPage() {
               reliable access to castables, fire bricks, ceramic fibre, insulation and refractory anchors.
             </p>
             <p>
-              We are not a manufacturer. Our role — and our value — is in understanding a requirement,
+              We are not a manufacturer. Our role, and our value, is in understanding a requirement,
               sourcing the right material through an established supplier network, and coordinating
               commercial execution and delivery so our customers can get on with running their plants.
             </p>
@@ -62,7 +62,7 @@ export default function AboutPage() {
             <p>
               What began in {company.establishedYear} has grown, through {formatYearsSinceLabel(company.establishedYear)}{' '}
               years of industry relationships, into a dependable supply partner for businesses across
-              Gujarat and — where commercially and operationally feasible — the wider Indian market. Our
+              Gujarat and, where commercially and operationally feasible, the wider Indian market. Our
               presence on IndiaMART complements this website as a discovery and trust channel.
             </p>
           </div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
             <div className="rounded-lg border border-steel-200 bg-steel-50 p-6">
               <Eyebrow>Mission</Eyebrow>
               <p className="mt-3 text-[15px] leading-7 text-steel-700">
-                To help industrial buyers source refractory materials dependably — with responsive
+                To help industrial buyers source refractory materials dependably, with responsive
                 coordination, accurate information and reliable fulfilment.
               </p>
             </div>

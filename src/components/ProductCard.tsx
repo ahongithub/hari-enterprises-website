@@ -11,13 +11,13 @@ export function ProductCard({ product }: { product: Product }) {
       href={`/products/${product.slug}`}
       className="group flex flex-col overflow-hidden rounded-lg border border-steel-200 bg-white shadow-card transition-shadow hover:shadow-card-hover"
     >
-      <div className="relative aspect-[4/3] overflow-hidden bg-steel-100">
+      <div className="relative aspect-[4/3] overflow-hidden bg-white">
         <Image
           src={product.image}
           alt={product.imageAlt}
           fill
           sizes="(max-width:640px) 100vw, (max-width:1024px) 50vw, 33vw"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
+          className="object-contain p-3 transition-transform duration-500 group-hover:scale-105"
         />
       </div>
       <div className="flex flex-1 flex-col p-5">

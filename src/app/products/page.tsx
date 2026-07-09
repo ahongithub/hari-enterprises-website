@@ -10,7 +10,7 @@ import { products, categories } from '@/data/products';
 import { buildMetadata } from '@/lib/seo';
 
 export const metadata = buildMetadata({
-  title: 'Refractory Products — Castables, Fire Bricks, Ceramic Fibre & Anchors | Hari Enterprises',
+  title: 'Refractory Products, Castables, Fire Bricks, Ceramic Fibre & Anchors | Hari Enterprises',
   description:
     'Explore the refractory-material portfolio supplied by Hari Enterprises, Ahmedabad: castables & cement, fire & refractory bricks, ceramic fibre, insulation and refractory anchors.',
   path: '/products',
@@ -28,7 +28,7 @@ export default function ProductsPage({
       <PageHeader
         eyebrow="Product Portfolio"
         title="Refractory materials for high-temperature industry"
-        intro="A broad, application-driven portfolio — sourced to match your specification, grade and requirement. Filter by category or search to find what you need."
+        intro="A broad, application-driven portfolio, sourced to match your specification, grade and requirement. Filter by category or search to find what you need."
       />
       <Section>
         <Suspense>

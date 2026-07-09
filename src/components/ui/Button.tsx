@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
-type Variant = 'primary' | 'secondary' | 'ghost' | 'outline';
+type Variant = 'primary' | 'secondary' | 'ghost' | 'outline' | 'outline-light';
 type Size = 'sm' | 'md' | 'lg';
 
 const base =
@@ -11,6 +11,9 @@ const variants: Record<Variant, string> = {
   primary: 'bg-ember text-white hover:bg-ember-600 active:bg-ember-700 shadow-sm',
   secondary: 'bg-ink text-white hover:bg-ink-700 active:bg-ink-900',
   outline: 'border border-steel-300 bg-white text-ink hover:border-ink hover:bg-steel-50',
+  // For dark backgrounds: white outline, white text, subtle hover fill. Self-contained
+  // so no conflicting utilities can make the label disappear.
+  'outline-light': 'border border-white/40 bg-transparent text-white hover:bg-white/10 hover:border-white',
   ghost: 'text-ink hover:bg-steel-100',
 };
 

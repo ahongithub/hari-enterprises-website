@@ -1,5 +1,5 @@
 /**
- * Product catalogue — single source of truth.
+ * Product catalogue, single source of truth.
  * Grounded in the verified Hari Enterprises portfolio (company brochure +
  * IndiaMART listing). Product names are kept descriptive/generic; specific
  * brands, grades and dimensions are offered "on enquiry" to avoid implying
@@ -30,7 +30,7 @@ export interface Product {
   keyCharacteristics: string[];
   applications: string[];
   industries: string[];
-  /** Qualitative supply notes only — no invented numbers. */
+  /** Qualitative supply notes only, no invented numbers. */
   supplyNotes?: string[];
   image: string;
   imageAlt: string;
@@ -47,7 +47,7 @@ export const categories: ProductCategory[] = [
     shortName: 'Castables & Cement',
     blurb:
       'Monolithic castables and refractory cements for lining, casting and repair of high-temperature equipment.',
-    image: '/images/products/category-castables.svg',
+    image: '/images/products/category-castables.webp',
   },
   {
     id: 'bricks',
@@ -56,7 +56,7 @@ export const categories: ProductCategory[] = [
     shortName: 'Bricks',
     blurb:
       'Fire clay, high-alumina and insulating bricks for furnace, kiln and boiler linings.',
-    image: '/images/products/category-bricks.svg',
+    image: '/images/products/category-bricks.webp',
   },
   {
     id: 'ceramic-fibre',
@@ -65,7 +65,7 @@ export const categories: ProductCategory[] = [
     shortName: 'Ceramic Fibre',
     blurb:
       'Lightweight ceramic fibre blanket, board and paper for high-temperature insulation and lining back-up.',
-    image: '/images/products/category-ceramic-fibre.svg',
+    image: '/images/products/category-ceramic-fibre.webp',
   },
   {
     id: 'insulation',
@@ -74,7 +74,7 @@ export const categories: ProductCategory[] = [
     shortName: 'Insulation',
     blurb:
       'LRB / rockwool mattresses, glass wool and mineral wool for thermal insulation of industrial equipment and piping.',
-    image: '/images/products/category-insulation.svg',
+    image: '/images/products/category-insulation.webp',
   },
   {
     id: 'anchors',
@@ -83,7 +83,7 @@ export const categories: ProductCategory[] = [
     shortName: 'Anchors',
     blurb:
       'Stainless steel refractory anchors that hold monolithic linings and fibre modules securely in place.',
-    image: '/images/products/category-anchors.svg',
+    image: '/images/products/category-anchors.webp',
   },
 ];
 
@@ -111,10 +111,10 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Ceramics & Kilns', 'Thermal Processing'],
     supplyNotes: [
-      'Multiple density and temperature grades available — shared on enquiry.',
+      'Multiple density and temperature grades available, shared on enquiry.',
       'Typically supplied in bags; packaging confirmed against your requirement.',
     ],
-    image: '/images/products/insulating-castable.svg',
+    image: '/images/products/insulating-castable.webp',
     imageAlt: 'Bag and cast sample of insulating refractory castable',
     related: ['dense-castable', 'refractory-cement', 'super-castable-cement'],
     keywords: ['insulating castable supplier', 'refractory castable Ahmedabad', 'lightweight castable Gujarat'],
@@ -138,7 +138,7 @@ export const products: Product[] = [
     keyCharacteristics: [
       'High mechanical strength and abrasion resistance',
       'Suited to demanding hot-face and high-temperature service',
-      'Monolithic installation — no joints to fail',
+      'Monolithic installation, no joints to fail',
       'Multiple alumina and temperature grades',
     ],
     applications: [
@@ -148,14 +148,14 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Cement & Lime', 'Thermal Processing'],
     supplyNotes: [
-      'Alumina content and grade selected to suit application — discussed on enquiry.',
+      'Alumina content and grade selected to suit application, discussed on enquiry.',
     ],
-    image: '/images/products/dense-castable.svg',
+    image: '/images/products/dense-castable.webp',
     imageAlt: 'Dense high-alumina refractory castable sample block',
     related: ['insulating-castable', 'refractory-cement', 'high-alumina-bricks'],
     keywords: ['dense castable supplier', 'high alumina castable Gujarat', 'refractory castable supplier Ahmedabad'],
     seo: {
-      title: 'Dense & High-Alumina Castable Supplier — Ahmedabad, Gujarat',
+      title: 'Dense & High-Alumina Castable Supplier, Ahmedabad, Gujarat',
       description:
         'Dense, abrasion-resistant high-alumina refractory castables for hot-face furnace linings. Supplied by Hari Enterprises, Ahmedabad. Request grades and pricing.',
       h1: 'Dense / High-Alumina Castable',
@@ -184,7 +184,7 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Ceramics & Kilns', 'Boilers & Heaters'],
     supplyNotes: ['Setting grade and packaging confirmed against requirement.'],
-    image: '/images/products/refractory-cement.svg',
+    image: '/images/products/refractory-cement.webp',
     imageAlt: 'Refractory cement powder in an open bag',
     related: ['dense-castable', 'super-castable-cement', 'fire-bricks'],
     keywords: ['refractory cement supplier', 'castable cement Ahmedabad', 'refractory cement Gujarat'],
@@ -206,7 +206,7 @@ export const products: Product[] = [
     whatItIs:
       'A ready-to-mix refractory cement blend that sets into a durable lining, available in standard and higher-performance grades.',
     keyCharacteristics: [
-      'Versatile — casting, lining and maintenance',
+      'Versatile, casting, lining and maintenance',
       'Simple water-mix installation',
       'Available in standard and premium grades',
       'Balanced strength and temperature resistance',
@@ -217,8 +217,8 @@ export const products: Product[] = [
       'Small custom-cast refractory shapes',
     ],
     industries: ['Foundry & Metal Casting', 'Boilers & Heaters', 'Ceramics & Kilns'],
-    supplyNotes: ['Standard and premium grades available — confirmed on enquiry.'],
-    image: '/images/products/super-castable-cement.svg',
+    supplyNotes: ['Standard and premium grades available, confirmed on enquiry.'],
+    image: '/images/products/super-castable-cement.webp',
     imageAlt: 'Castable cement mix ready for application',
     related: ['insulating-castable', 'refractory-cement', 'dense-castable'],
     keywords: ['castable cement supplier', 'castable cement Ahmedabad', 'refractory castable cement Gujarat'],
@@ -236,7 +236,7 @@ export const products: Product[] = [
     shortDescription:
       'Fire-clay bricks for the linings of furnaces, kilns, boilers and fireplaces.',
     overview:
-      'Fire bricks are the workhorse of refractory construction — dense fire-clay bricks that resist heat, thermal cycling and general wear. They are used to build and reline the hot zones of a wide range of thermal equipment.',
+      'Fire bricks are the workhorse of refractory construction, dense fire-clay bricks that resist heat, thermal cycling and general wear. They are used to build and reline the hot zones of a wide range of thermal equipment.',
     whatItIs:
       'Pressed and fired refractory bricks made from fire clay, designed to withstand sustained high temperatures and thermal cycling.',
     keyCharacteristics: [
@@ -254,7 +254,7 @@ export const products: Product[] = [
     supplyNotes: [
       'Standard sizes available; special shapes sourced against requirement.',
     ],
-    image: '/images/products/fire-bricks.svg',
+    image: '/images/products/fire-bricks.webp',
     imageAlt: 'Stack of refractory fire-clay bricks',
     related: ['high-alumina-bricks', 'insulation-bricks', 'refractory-cement'],
     keywords: ['fire brick supplier Ahmedabad', 'refractory brick supplier Gujarat', 'fire clay brick supplier'],
@@ -288,12 +288,12 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Cement & Lime', 'Ceramics & Kilns'],
     supplyNotes: ['Alumina grade selected to match service conditions.'],
-    image: '/images/products/high-alumina-bricks.svg',
+    image: '/images/products/high-alumina-bricks.webp',
     imageAlt: 'High-alumina refractory bricks',
     related: ['fire-bricks', 'insulation-bricks', 'dense-castable'],
     keywords: ['high alumina brick supplier', 'refractory brick supplier Gujarat', 'high alumina refractory Ahmedabad'],
     seo: {
-      title: 'High-Alumina Refractory Brick Supplier — Ahmedabad, Gujarat',
+      title: 'High-Alumina Refractory Brick Supplier, Ahmedabad, Gujarat',
       description:
         'High-alumina refractory bricks for demanding, high-temperature furnace zones. Supplied by Hari Enterprises, Ahmedabad. Request grades and availability.',
       h1: 'High-Alumina Refractory Bricks',
@@ -322,7 +322,7 @@ export const products: Product[] = [
     ],
     industries: ['Ceramics & Kilns', 'Foundry & Metal Casting', 'Boilers & Heaters'],
     supplyNotes: ['Temperature classification confirmed on enquiry.'],
-    image: '/images/products/insulation-bricks.svg',
+    image: '/images/products/insulation-bricks.webp',
     imageAlt: 'Lightweight insulating fire bricks',
     related: ['fire-bricks', 'high-alumina-bricks', 'ceramic-fibre-board'],
     keywords: ['insulation brick supplier', 'IFB supplier Gujarat', 'insulating fire brick Ahmedabad'],
@@ -345,7 +345,7 @@ export const products: Product[] = [
       'A needled blanket of high-purity ceramic fibres supplied in rolls, used for high-temperature insulation and lining back-up.',
     keyCharacteristics: [
       'Excellent thermal insulation, very low heat storage',
-      'Lightweight and flexible — easy to install',
+      'Lightweight and flexible, easy to install',
       'Good resistance to thermal shock',
       'Supplied in rolls in a range of densities and thicknesses',
     ],
@@ -359,7 +359,7 @@ export const products: Product[] = [
       'Available in multiple densities and thicknesses; temperature grade confirmed on enquiry.',
       'Supplied in rolls; pack sizes confirmed against requirement.',
     ],
-    image: '/images/products/ceramic-fibre-blanket.svg',
+    image: '/images/products/ceramic-fibre-blanket.webp',
     imageAlt: 'Roll of white ceramic fibre insulation blanket',
     related: ['ceramic-fibre-board', 'ceramic-fibre-paper', 'lrb-mattress'],
     keywords: ['ceramic blanket supplier', 'ceramic fibre blanket supplier Gujarat', 'ceramic fiber blanket Ahmedabad'],
@@ -377,7 +377,7 @@ export const products: Product[] = [
     shortDescription:
       'Rigid ceramic fibre board for self-supporting high-temperature insulation.',
     overview:
-      'Ceramic fibre board is a rigid form of ceramic fibre insulation that holds its shape without support. It is used where a firm, machinable insulating panel is needed — for hot-face linings, back-up insulation and equipment construction.',
+      'Ceramic fibre board is a rigid form of ceramic fibre insulation that holds its shape without support. It is used where a firm, machinable insulating panel is needed, for hot-face linings, back-up insulation and equipment construction.',
     whatItIs:
       'A rigid, self-supporting board of ceramic fibre and binder, offered in standard panel sizes and thicknesses.',
     keyCharacteristics: [
@@ -393,7 +393,7 @@ export const products: Product[] = [
     ],
     industries: ['Ceramics & Kilns', 'Foundry & Metal Casting', 'Thermal Processing'],
     supplyNotes: ['Board size and thickness confirmed on enquiry.'],
-    image: '/images/products/ceramic-fibre-board.svg',
+    image: '/images/products/ceramic-fibre-board.webp',
     imageAlt: 'Rigid ceramic fibre insulation board',
     related: ['ceramic-fibre-blanket', 'ceramic-fibre-paper', 'insulation-bricks'],
     keywords: ['ceramic fibre board supplier', 'ceramic fiber board Gujarat', 'ceramic board Ahmedabad'],
@@ -411,7 +411,7 @@ export const products: Product[] = [
     shortDescription:
       'Thin, uniform ceramic fibre paper for gaskets, seals and back-up insulation.',
     overview:
-      'Ceramic fibre paper is a thin, flexible sheet of ceramic fibres used where a uniform, easily cut insulating layer is needed — for gaskets, expansion joints, seals and delicate back-up insulation.',
+      'Ceramic fibre paper is a thin, flexible sheet of ceramic fibres used where a uniform, easily cut insulating layer is needed, for gaskets, expansion joints, seals and delicate back-up insulation.',
     whatItIs:
       'A thin, uniform sheet of ceramic fibres with a small amount of organic binder, supplied in rolls.',
     keyCharacteristics: [
@@ -427,7 +427,7 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Ceramics & Kilns', 'Thermal Processing'],
     supplyNotes: ['Thickness and roll size confirmed on enquiry.'],
-    image: '/images/products/ceramic-fibre-paper.svg',
+    image: '/images/products/ceramic-fibre-paper.webp',
     imageAlt: 'Roll of ceramic fibre insulation paper',
     related: ['ceramic-fibre-blanket', 'ceramic-fibre-board', 'refractory-cement'],
     keywords: ['ceramic fibre paper supplier', 'ceramic fiber paper Gujarat', 'ceramic paper Ahmedabad'],
@@ -450,7 +450,7 @@ export const products: Product[] = [
       'A flexible mattress of resin-bonded mineral (rock) wool, often faced or stitched, used for industrial thermal insulation.',
     keyCharacteristics: [
       'Effective thermal insulation for equipment and piping',
-      'Flexible — wraps around curved surfaces',
+      'Flexible, wraps around curved surfaces',
       'Available in a range of densities and thicknesses',
       'Helps control hot-surface temperatures',
     ],
@@ -461,12 +461,12 @@ export const products: Product[] = [
     ],
     industries: ['Boilers & Heaters', 'Chemical & Process', 'Power & Utilities'],
     supplyNotes: ['Density and thickness confirmed on enquiry; facing options available.'],
-    image: '/images/products/lrb-mattress.svg',
+    image: '/images/products/lrb-mattress.webp',
     imageAlt: 'LRB resin-bonded rockwool insulation mattress',
     related: ['glass-wool', 'mineral-wool', 'ceramic-fibre-blanket'],
     keywords: ['LRB mattress supplier', 'rockwool mattress Gujarat', 'rockwool insulation Ahmedabad'],
     seo: {
-      title: 'LRB / Rockwool Mattress Supplier — Ahmedabad, Gujarat',
+      title: 'LRB / Rockwool Mattress Supplier, Ahmedabad, Gujarat',
       description:
         'Resin-bonded rockwool (LRB) mattresses for thermal insulation of boilers, ducts and piping. Supplied by Hari Enterprises, Ahmedabad. Request density and thickness.',
       h1: 'LRB / Rockwool Mattress',
@@ -495,7 +495,7 @@ export const products: Product[] = [
     ],
     industries: ['Boilers & Heaters', 'Chemical & Process', 'Power & Utilities'],
     supplyNotes: ['Density, thickness and facing confirmed on enquiry.'],
-    image: '/images/products/glass-wool.svg',
+    image: '/images/products/glass-wool.webp',
     imageAlt: 'Roll of glass wool insulation',
     related: ['lrb-mattress', 'mineral-wool', 'ceramic-fibre-blanket'],
     keywords: ['glass wool supplier', 'glass wool insulation Gujarat', 'glass wool Ahmedabad'],
@@ -529,7 +529,7 @@ export const products: Product[] = [
     ],
     industries: ['Boilers & Heaters', 'Chemical & Process', 'Power & Utilities'],
     supplyNotes: ['Form (loose/blanket/slab) and density confirmed on enquiry.'],
-    image: '/images/products/mineral-wool.svg',
+    image: '/images/products/mineral-wool.webp',
     imageAlt: 'Mineral wool insulation material',
     related: ['lrb-mattress', 'glass-wool', 'ceramic-fibre-blanket'],
     keywords: ['mineral wool supplier', 'mineral wool insulation Gujarat', 'mineral wool Ahmedabad'],
@@ -549,7 +549,7 @@ export const products: Product[] = [
     overview:
       'Refractory anchors are metal fixings that hold castable linings and ceramic fibre modules onto the equipment shell. Choosing the right anchor material, type and spacing is critical to the life of a monolithic lining.',
     whatItIs:
-      'Stainless steel anchors — in wave, V, Y and other profiles — welded to the shell to retain refractory linings.',
+      'Stainless steel anchors, in wave, V, Y and other profiles, welded to the shell to retain refractory linings.',
     keyCharacteristics: [
       'Holds castable linings and fibre modules in place',
       'Stainless steel grades for high-temperature service',
@@ -563,9 +563,9 @@ export const products: Product[] = [
     ],
     industries: ['Foundry & Metal Casting', 'Cement & Lime', 'Thermal Processing', 'Power & Utilities'],
     supplyNotes: [
-      'Anchor profile, steel grade and size selected to suit the lining — confirmed on enquiry.',
+      'Anchor profile, steel grade and size selected to suit the lining, confirmed on enquiry.',
     ],
-    image: '/images/products/refractory-anchors.svg',
+    image: '/images/products/refractory-anchors.webp',
     imageAlt: 'Stainless steel refractory anchors in various profiles',
     related: ['dense-castable', 'insulating-castable', 'ceramic-fibre-blanket'],
     keywords: ['refractory anchor supplier', 'SS refractory anchor Gujarat', 'refractory anchor Ahmedabad'],

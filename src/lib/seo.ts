@@ -10,7 +10,7 @@ interface BuildMetaArgs {
   keywords?: string[];
 }
 
-/** Central metadata builder — reused by every page for consistent SEO tags. */
+/** Central metadata builder, reused by every page for consistent SEO tags. */
 export function buildMetadata({
   title,
   description,

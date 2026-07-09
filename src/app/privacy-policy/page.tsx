@@ -24,7 +24,7 @@ export default function PrivacyPage() {
           </p>
           <h2>Information we collect</h2>
           <p>
-            When you submit an enquiry or contact form, we collect the details you provide — such as your
+            When you submit an enquiry or contact form, we collect the details you provide, such as your
             name, company, designation, email, phone number, city, state, product requirement and any
             files you attach. We may also collect basic technical data (such as your approximate region
             and pages visited) through analytics tools, where enabled.

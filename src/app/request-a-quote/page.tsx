@@ -12,7 +12,7 @@ import { buildMetadata } from '@/lib/seo';
 export const metadata = buildMetadata({
   title: 'Request a Quote / Send Requirement | Hari Enterprises',
   description:
-    'Send your refractory material requirement to Hari Enterprises, Ahmedabad. Share product, quantity, application and delivery details — and attach drawings or a BOQ.',
+    'Send your refractory material requirement to Hari Enterprises, Ahmedabad. Share product, quantity, application and delivery details, and attach drawings or a BOQ.',
   path: '/request-a-quote',
 });
 
@@ -24,7 +24,7 @@ export default function RequestQuotePage() {
       <PageHeader
         eyebrow="Request a Quote / Send Requirement"
         title="Tell us what you need"
-        intro="Share your requirement below. The more detail you provide — specification, quantity, application and delivery location — the faster and more accurately we can respond."
+        intro="Share your requirement below. The more detail you provide, specification, quantity, application and delivery location, the faster and more accurately we can respond."
       />
       <Section>
         <div className="grid gap-10 lg:grid-cols-12">

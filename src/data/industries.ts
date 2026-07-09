@@ -28,7 +28,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-foundry.svg',
     seo: {
-      title: 'Refractory Materials for Foundries & Metal Casting — Hari Enterprises',
+      title: 'Refractory Materials for Foundries & Metal Casting, Hari Enterprises',
       description:
         'Castables, fire bricks, ceramic fibre and refractory anchors for foundry and metal-casting furnaces, ladles and launders. Supplied by Hari Enterprises, Ahmedabad.',
       h1: 'Refractory Materials for Foundry & Metal Casting',
@@ -50,7 +50,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-kiln.svg',
     seo: {
-      title: 'Refractory Materials for Ceramics & Kilns — Hari Enterprises',
+      title: 'Refractory Materials for Ceramics & Kilns, Hari Enterprises',
       description:
         'Fire bricks, insulating bricks and ceramic fibre for ceramic and brick kilns. Supplied by Hari Enterprises, Ahmedabad. Send your kiln lining requirement.',
       h1: 'Refractory Materials for Ceramics & Kilns',
@@ -72,7 +72,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-boiler.svg',
     seo: {
-      title: 'Refractory & Insulation for Boilers & Heaters — Hari Enterprises',
+      title: 'Refractory & Insulation for Boilers & Heaters, Hari Enterprises',
       description:
         'Insulation, ceramic fibre and castable linings for industrial boilers, heaters and ducts. Supplied by Hari Enterprises, Ahmedabad. Request your requirement.',
       h1: 'Refractory & Insulation for Boilers & Heaters',
@@ -94,7 +94,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-cement.svg',
     seo: {
-      title: 'Refractory Materials for Cement & Lime — Hari Enterprises',
+      title: 'Refractory Materials for Cement & Lime, Hari Enterprises',
       description:
         'Dense castables, high-alumina bricks and refractory anchors for cement and lime process equipment. Supplied by Hari Enterprises, Ahmedabad.',
       h1: 'Refractory Materials for Cement & Lime',
@@ -116,7 +116,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-chemical.svg',
     seo: {
-      title: 'Refractory & Insulation for Chemical & Process Plants — Hari Enterprises',
+      title: 'Refractory & Insulation for Chemical & Process Plants, Hari Enterprises',
       description:
         'Insulation, ceramic fibre and castable linings for chemical and process equipment. Supplied by Hari Enterprises, Ahmedabad. Send your requirement.',
       h1: 'Refractory & Insulation for Chemical & Process',
@@ -138,7 +138,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-power.svg',
     seo: {
-      title: 'Refractory & Insulation for Power & Utilities — Hari Enterprises',
+      title: 'Refractory & Insulation for Power & Utilities, Hari Enterprises',
       description:
         'Insulation and refractory materials for power and utility plant equipment. Supplied by Hari Enterprises, Ahmedabad. Request your requirement.',
       h1: 'Refractory & Insulation for Power & Utilities',
@@ -160,7 +160,7 @@ export const industries: Industry[] = [
     ],
     image: '/images/hero/industry-thermal.svg',
     seo: {
-      title: 'Refractory Materials for Thermal Processing & Heat Treatment — Hari Enterprises',
+      title: 'Refractory Materials for Thermal Processing & Heat Treatment, Hari Enterprises',
       description:
         'Ceramic fibre, bricks and castables for heat-treatment and thermal-processing furnaces. Supplied by Hari Enterprises, Ahmedabad.',
       h1: 'Refractory Materials for Thermal Processing & Heat Treatment',
