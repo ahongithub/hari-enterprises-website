@@ -3,9 +3,9 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, X, ChevronDown, Phone } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
 import { primaryNav } from '@/data/navigation';
-import { company, telHref, whatsappHref } from '@/data/company';
+import { telHref, whatsappHref } from '@/data/company';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 import { Logo } from './Logo';
@@ -61,7 +61,7 @@ export function Header() {
                 <Link
                   href={item.href}
                   className={cn(
-                    'flex items-center gap-1 rounded px-3 py-2 text-[15px] font-medium',
+                    'flex items-center gap-1 whitespace-nowrap rounded px-2.5 py-2 text-[15px] font-medium',
                     isActive(item.href) ? 'text-ember' : 'text-ink hover:text-ember',
                   )}
                 >
@@ -90,7 +90,7 @@ export function Header() {
                 key={item.label}
                 href={item.href}
                 className={cn(
-                  'rounded px-3 py-2 text-[15px] font-medium',
+                  'whitespace-nowrap rounded px-2.5 py-2 text-[15px] font-medium',
                   isActive(item.href) ? 'text-ember' : 'text-ink hover:text-ember',
                 )}
               >
@@ -100,15 +100,7 @@ export function Header() {
           )}
         </nav>
 
-        <div className="hidden items-center gap-2 lg:flex">
-          <a
-            href={telHref}
-            data-analytics="phone-click"
-            className="flex items-center gap-1.5 rounded px-2 text-sm font-medium text-ink hover:text-ember"
-          >
-            <Phone className="h-4 w-4" aria-hidden />
-            {company.phone.display}
-          </a>
+        <div className="hidden shrink-0 items-center lg:flex">
           <Button href="/request-a-quote" size="sm">
             Request a Quote
           </Button>
