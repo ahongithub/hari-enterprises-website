@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #12233d;
+  --ember: #c8322b;
+  --steel-200: #dce0e7;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+  body {
+    @apply bg-paper text-steel-800 antialiased;
+    font-feature-settings: 'kern' 1, 'liga' 1;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: var(--ember);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ember);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+}
+
+@layer components {
+  /* The logo "grating" motif — a stack of hairlines used as a section divider
+     and eyebrow rule. This is the site's signature structural device. */
+  .grating {
+    background-image: repeating-linear-gradient(
+      to bottom,
+      currentColor,
+      currentColor 1px,
+      transparent 1px,
+      transparent 4px
+    );
+  }
+  .eyebrow {
+    @apply font-mono text-2xs font-medium uppercase tracking-[0.18em] text-ember;
+  }
+  .container-x {
+    @apply mx-auto w-full max-w-content px-5 sm:px-6 lg:px-8;
+  }
+  /* Heat-line: the single "signature" accent — a steel→ember hairline. Used once
+     per major section max, never as blanket decoration. */
+  .heatline {
+    background: linear-gradient(90deg, #98a2b3 0%, #c46a3a 55%, #c8322b 100%);
+  }
+  .prose-hari {
+    @apply text-[15px] leading-7 text-steel-700;
+  }
+  .prose-hari h2 {
+    @apply mt-9 mb-3 text-xl;
+  }
+  .prose-hari p {
+    @apply mb-4;
+  }
+  .prose-hari ul {
+    @apply mb-4 space-y-2 pl-5;
+  }
+  .prose-hari li {
+    @apply list-disc marker:text-firebrick;
+  }
+  .prose-hari strong {
+    @apply text-ink;
+  }
+}
