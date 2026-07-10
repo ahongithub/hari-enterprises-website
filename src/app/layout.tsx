@@ -5,6 +5,7 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { FloatingActions } from '@/components/FloatingActions';
 import { Analytics } from '@/components/Analytics';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/next';
 import { JsonLd } from '@/components/JsonLd';
 import { organizationSchema, localBusinessSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <FloatingActions />
         <Analytics />
+        <VercelAnalytics />
       </body>
     </html>
   );
