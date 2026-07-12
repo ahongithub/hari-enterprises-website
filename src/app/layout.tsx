@@ -9,6 +9,7 @@ import { JsonLd } from '@/components/JsonLd';
 import { organizationSchema, localBusinessSchema } from '@/lib/schema';
 import { buildMetadata } from '@/lib/seo';
 import { siteUrl } from '@/data/seo';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' });
 const saira = Saira({
@@ -54,6 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <FloatingActions />
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
